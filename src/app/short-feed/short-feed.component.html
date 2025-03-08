@@ -1,0 +1,56 @@
+<div class="video-container">
+  <div id="videoContainer" class="video-wrapper" style="
+  height: 30rem;
+  overflow: scroll;
+">
+    <!-- <div class="filter-buttons">
+        <button (click)="filterVideos('Tech')">Tech</button>
+        <button (click)="filterVideos('AI')">AI</button>
+        <button (click)="filterVideos('Coding')">Coding</button>
+      </div> -->
+    <div
+      *ngFor="let video of filteredVideos"
+      class="shorts-container"
+      style="height: 30rem;"
+    >
+      <iframe 
+        *ngIf="videoLoaded"
+        [src]="sanitizeURL(video.id)"
+        [style.height]="iframeHeight"
+        width="100%"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      >
+      </iframe>
+      <div class="video-title">{{ video.title }}</div>
+    </div>
+
+    <div class="custom-logo-overlay">
+      <svg
+        width="100"
+        height="40"
+        viewBox="0 0 100 40"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="100" height="40" fill="#fafafa" />
+        <text x="10" y="25" font-size="16" fill="#ffffff">My Logo</text>
+      </svg>
+    </div>
+  </div>
+</div>
+<!-- AIzaSyBpC_1cf5IWYzDBHGuPocjzKvA-wIGAsZA -->
+<!-- <div class="filter-buttons">
+    <button (click)="filterVideos('Tech')">Tech</button>
+    <button (click)="filterVideos('AI')">AI</button>
+    <button (click)="filterVideos('Coding')">Coding</button>
+  </div>
+  
+  <div class="video-grid" [ngStyle]="{'grid-template-columns': 'repeat(' + gridCols + ', 1fr)'}">
+    <div *ngFor="let video of filteredVideos" class="video-item">
+      <iframe [src]="sanitizeURL(video.id)" frameborder="0" allowfullscreen></iframe>
+      <div class="video-title">{{ video.title }}</div>
+    </div>
+  </div>
+   -->

@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1741543723221,
+  "index": "/youtube-shorts-ui/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/youtube-shorts-ui/favicon.ico",
+        "/youtube-shorts-ui/index.html",
+        "/youtube-shorts-ui/main.7d7c742931de0a86.js",
+        "/youtube-shorts-ui/manifest.webmanifest",
+        "/youtube-shorts-ui/polyfills.4329cc868791fffd.js",
+        "/youtube-shorts-ui/runtime.ea0d61d402b00ec3.js",
+        "/youtube-shorts-ui/styles.663ce2b35f55cb70.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/youtube-shorts-ui/assets/icons/icon-128x128.png",
+        "/youtube-shorts-ui/assets/icons/icon-144x144.png",
+        "/youtube-shorts-ui/assets/icons/icon-152x152.png",
+        "/youtube-shorts-ui/assets/icons/icon-192x192.png",
+        "/youtube-shorts-ui/assets/icons/icon-384x384.png",
+        "/youtube-shorts-ui/assets/icons/icon-512x512.png",
+        "/youtube-shorts-ui/assets/icons/icon-72x72.png",
+        "/youtube-shorts-ui/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/youtube-shorts-ui/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/youtube-shorts-ui/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/youtube-shorts-ui/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/youtube-shorts-ui/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/youtube-shorts-ui/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/youtube-shorts-ui/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/youtube-shorts-ui/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/youtube-shorts-ui/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/youtube-shorts-ui/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/youtube-shorts-ui/index.html": "3c61615bb6a50c186e1cd8399c05c43bbf8bd78a",
+    "/youtube-shorts-ui/main.7d7c742931de0a86.js": "c7b6c35cc46b69b301047bb23b20c8578909b9bf",
+    "/youtube-shorts-ui/manifest.webmanifest": "b7f7a69076cd438d8cfabc1160589628a90a8ac2",
+    "/youtube-shorts-ui/polyfills.4329cc868791fffd.js": "d1184d8746961b4febacb495dfa5c4d9c7fc055f",
+    "/youtube-shorts-ui/runtime.ea0d61d402b00ec3.js": "ddee323ab8121450c386b89980b5e261fb5d7eb5",
+    "/youtube-shorts-ui/styles.663ce2b35f55cb70.css": "e63dd89a9bb359f44a94090c95fcfbb7f9e00470"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

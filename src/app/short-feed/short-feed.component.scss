@@ -3,6 +3,7 @@
 }
 .shorts-container {
   .video-item {
+    scroll-snap-type: y mandatory;
     iframe {
       width: 100%;
       height: 100%;

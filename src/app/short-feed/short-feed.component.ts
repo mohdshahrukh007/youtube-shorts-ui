@@ -98,9 +98,8 @@ export class ShortFeedComponent {
   // ✅ Scroll snapping logic
   setupSnapScrolling(): void {
     const container = document.querySelector('.shorts-container') as HTMLElement;
-
     let isScrolling: any;
-    container.addEventListener('scroll', () => {
+    container?.addEventListener('scroll', () => {
       window.clearTimeout(isScrolling);
       // When user stops scrolling, snap to closest video
       isScrolling = setTimeout(() => {

@@ -2,6 +2,7 @@
   top: 0px !important;
 }
 .shorts-container {
+  scroll-snap-type: proximity;
   .video-item {
     iframe {
       width: 100%;

@@ -8,7 +8,7 @@ import { HttpClient } from "@angular/common/http";
   styleUrls: ["./short-feed.component.scss"],
 })
 export class ShortFeedComponent {
-  apiKey = "AIza/SyBpC_1cf5IWYzDBHGuPocjzKvA-wIGAsZA"; // Replace with your YouTube API key
+  apiKey = "AIzaSyBpC_1cf5IWYzDBHGuPocjzKvA-wIGAsZA"; // Replace with your YouTube API key
   videos: any[] = [];
   filteredVideos: any[] = [];
   gridCols: number = 2;
